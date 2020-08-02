@@ -18,6 +18,8 @@
 		DC14E4C724D2CA68005B1802 /* FormViiew.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC14E4C624D2CA68005B1802 /* FormViiew.swift */; };
 		DC14E4C924D2CC36005B1802 /* ToolbarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC14E4C824D2CC36005B1802 /* ToolbarItem.swift */; };
 		DC14E4CB24D2CCAA005B1802 /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC14E4CA24D2CCAA005B1802 /* TabView.swift */; };
+		DCC8973824D68EC700AA1889 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC8973724D68EC700AA1889 /* MenuView.swift */; };
+		DCC8973A24D6903E00AA1889 /* ContextMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC8973924D6903E00AA1889 /* ContextMenuView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		DC14E4C624D2CA68005B1802 /* FormViiew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormViiew.swift; sourceTree = "<group>"; };
 		DC14E4C824D2CC36005B1802 /* ToolbarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarItem.swift; sourceTree = "<group>"; };
 		DC14E4CA24D2CCAA005B1802 /* TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
+		DCC8973724D68EC700AA1889 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		DCC8973924D6903E00AA1889 /* ContextMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextMenuView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +116,8 @@
 				DC14E4C624D2CA68005B1802 /* FormViiew.swift */,
 				DC14E4C824D2CC36005B1802 /* ToolbarItem.swift */,
 				DC14E4CA24D2CCAA005B1802 /* TabView.swift */,
+				DCC8973724D68EC700AA1889 /* MenuView.swift */,
+				DCC8973924D6903E00AA1889 /* ContextMenuView.swift */,
 				DC14E49B24D2C229005B1802 /* Assets.xcassets */,
 				DC14E4A024D2C229005B1802 /* Info.plist */,
 				DC14E49D24D2C229005B1802 /* Preview Content */,
@@ -279,6 +285,8 @@
 				DC14E4C524D2C67A005B1802 /* SliderView.swift in Sources */,
 				DC14E4CB24D2CCAA005B1802 /* TabView.swift in Sources */,
 				DC14E4C324D2C322005B1802 /* Stepper.swift in Sources */,
+				DCC8973824D68EC700AA1889 /* MenuView.swift in Sources */,
+				DCC8973A24D6903E00AA1889 /* ContextMenuView.swift in Sources */,
 				DC14E4C924D2CC36005B1802 /* ToolbarItem.swift in Sources */,
 				DC14E49824D2C227005B1802 /* SwiftUIControlApp.swift in Sources */,
 			);

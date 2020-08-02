@@ -15,6 +15,8 @@ enum SwiftUIControls: String {
     case form       = "Form"
     case toolbarItem = "ToolbarItem"
     case tabView  = "TabView"
+    case menuView   = "MenuView"
+    case contextMenu = "ContextMenuView"
 }
 
 extension SwiftUIControls : Identifiable {
@@ -29,7 +31,9 @@ struct ContentView: View {
         .slider,
         .form,
         .toolbarItem,
-        .tableView
+        .tabView,
+        .menuView,
+        .contextMenu
     ]
     var body: some View {
         NavigationView {
@@ -57,6 +61,10 @@ struct ContentView: View {
             ToolbarItemView()
         case .tabView:
             TabViewView()
+        case .menuView:
+            MenuView()
+        case .contextMenu:
+            ContextMenuView()
         }
     }
 }

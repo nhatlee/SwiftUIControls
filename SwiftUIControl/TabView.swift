@@ -21,9 +21,3 @@ struct TabViewView: View {
         }
     }
 }
-
-struct TableView_Previews: PreviewProvider {
-    static var previews: some View {
-        TabView()
-    }
-}
