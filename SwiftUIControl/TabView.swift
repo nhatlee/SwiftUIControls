@@ -18,6 +18,8 @@ struct TabViewView: View {
                 .font(.title)
                 .tabItem({ Text("Second") })
                 .tag(1)
+            Image(systemName: "square.and.pencil")
+                .redacted(reason: .placeholder)
         }
     }
 }

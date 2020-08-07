@@ -17,6 +17,10 @@ enum SwiftUIControls: String {
     case tabView  = "TabView"
     case menuView   = "MenuView"
     case contextMenu = "ContextMenuView"
+    case sectionList = "SectionList"
+    case navigationPassData  = "navigationPassData"
+    case animatableModifier = "AnimatableModifierView"
+    case animations = "List custom animations"
 }
 
 extension SwiftUIControls : Identifiable {
@@ -33,7 +37,11 @@ struct ContentView: View {
         .toolbarItem,
         .tabView,
         .menuView,
-        .contextMenu
+        .contextMenu,
+        .sectionList,
+        .navigationPassData,
+        .animatableModifier,
+        .animations
     ]
     var body: some View {
         NavigationView {
@@ -42,9 +50,9 @@ struct ContentView: View {
                     NavigationLink(destination: view(for: control)) {
                         Text(control.rawValue)
                     }
-                    .navigationBarTitle("Navigation")
                 }
             }
+            .navigationBarTitle("SwiftUI Controls")
         }
     }
 
@@ -65,6 +73,14 @@ struct ContentView: View {
             MenuView()
         case .contextMenu:
             ContextMenuView()
+        case .sectionList:
+            SectionList()
+        case .navigationPassData:
+            NavigationLinkPassData()
+        case .animatableModifier:
+            AnimatableModifierView()
+        case .animations:
+            AnimationsCustomView()
         }
     }
 }

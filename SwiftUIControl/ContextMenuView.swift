@@ -26,6 +26,8 @@ struct ContextMenuView: View {
                             self.backgroundColor = .red
                         }) {
                             Text("Red")
+                            Image(systemName: "checkmark.circle.fill")
+                                .foregroundColor(.red)
                         }
 
                         Button(action: {
